@@ -1,0 +1,54 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/backgroundLogin.jpg");
+    background-size: cover;
+}
+
+#loginBox {
+    width: 375px;
+    height: 280px;
+    background-color: #666666;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 1em;
+}
+
+#avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    left: 10px;
+    border: 2px solid #666666;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+#loginBox p {
+    color: red;
+}
+
+#loginBox input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px whitesmoke solid;
+    outline: none;
+    color: white;
+    height: 20px;
+    width: 150px;
+}
+
+::placeholder{
+    color: whitesmoke;
+}

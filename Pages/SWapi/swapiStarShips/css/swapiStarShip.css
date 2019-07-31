@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family: 'starJedi';
+    src: url('../../star_jedi/starjedi/Starjedi.ttf');
+}
+
+@font-face {
+    font-family: 'starJediTitle';
+    src: url("../../star_jedi/starjedi/Starjhol.ttf");
+}
+
+body {
+    background-color: black;
+    background-image: url("../../img/swStars.jpg");
+    color: #FFC62D;
+    font-family: starJedi;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    font-family: starJediTitle;
+}
+
+#backButton {
+    color: #FFC62D;
+    position: relative;
+    left: 3%;
+}
+
+#clearTable {
+    position: relative;
+    background-color: transparent;
+    color: #FFC62D;
+    border: none;
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    font-family: starJedi;
+}
+
+#starShipForm {
+    position: relative;
+    left: 5%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.shipAdd {
+    color: black;
+    background-color: #FFC62D;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#tableShip {
+    box-sizing: border-box;
+    width: 98%;
+    position: relative;
+    left: 1%;
+    top: 10%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px double #FFC62D;
+    margin-top: 2%;
+}
+
+tr,th {
+    border: 1px solid #FFC62D;
+    padding: 10px;
+    background-color: black;
+}
+
+th {
+    font-family: starJedi;
+    font-size: 1em;
+    color: #FFC62D;
+}
+
+tr:first-of-type th {
+    font-family: starJediTitle;
+    font-size: 1.5em;
+    background-color: #FFC62D;
+    color: black;
+}
+
+#starShipList img{
+    float: right;
+    width: 25%;
+    height: auto;
+    margin-right: 10%;
+    border-radius: 3em;
+
+}

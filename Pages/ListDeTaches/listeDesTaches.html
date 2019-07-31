@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "fr">
+<head>
+    <meta charset = "UTF-8">
+    <script src="js/listeTaches.js"></script>
+    <link rel="stylesheet" href="css/listeTaches.css">
+    <title>Taches</title>
+</head>
+<body>
+
+<h1>Liste des Taches</h1>
+
+<fieldset id="newTacheFieldSet">
+    <legend>Nouvelle Tache</legend>
+    <form id="tacheForm">
+        Nom : <input type="text" id="name" placeholder="nom de la tache"> <br>
+        Durée : <input type="number" id="duree" placeholder="en heures"> <br>
+        Prioritée :
+        <div id="radioPrioDiv">
+            <label for = "prio0">Faible</label><input type="radio" id="prio0" name="prio" value="0" checked="checked"> <br>
+            <label for = "prio1">Moyen</label><input type="radio" id="prio1" name="prio" value="1"> <br>
+            <label for = "prio2">Elevé</label><input type="radio" id="prio2" name="prio" value="2"> <br>
+        </div>
+        <br>
+        <textarea cols="30" rows="3" id="descritpion" placeholder="Description"></textarea> <br>
+        <input type="button" onclick="main()" value="Ajouter la tache">
+    </form>
+</fieldset>
+
+<fieldset id="listeTachesFieldSet">
+    <legend>Taches actuelles</legend>
+    <div id="tacheList"></div>
+</fieldset>
+
+</body>
+</html>

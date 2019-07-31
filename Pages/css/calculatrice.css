@@ -1,0 +1,61 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #94de2b,green);
+    display: inline-block;
+    position: relative;
+}
+
+button {
+    border: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+button:hover {
+    background-image: radial-gradient(white,white,white,darkgray);
+}
+input {
+    width: 287px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+}
+
+#exe {
+    height: 142px;
+}
+#zero {
+    width: 142px;
+}
+#main {
+    position: absolute;
+    left: 5%;
+    top: 10px;
+    background-color: darkgray;
+    border: 4px solid darkgray;
+    box-sizing: border-box;
+}
+#tableSaves {
+    box-sizing: border-box;
+    width: 200px;
+    background-color: darkgray;
+    position: relative;
+    top: 10%;
+    left: 30%;
+
+}
+#tableSaves tr, #tableSaves td {
+    border: 1px solid black;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+
+}

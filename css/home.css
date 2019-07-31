@@ -1,0 +1,156 @@
+
+/* font face */
+@font-face {
+    font-family: 'capriola';
+    src: url('../rss/capriola-regular-webfont.woff2') format('woff2'),
+    url('../rss/capriola-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* global */
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: capriola, arial;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    position: relative;
+    background-color: #2a2a2a;
+}
+
+::placeholder {
+    color: lightgreen;
+}
+
+/* camendrier */
+#outlookCalendarFrame {
+    box-sizing: border-box;
+    width:70%;
+    max-width: 1250px;
+    height:50%;
+    position:absolute;
+    right:1%;
+    top:20%;
+    border: 5px solid #ffffff;
+    background-color: white;
+    border-radius: 1em;
+}
+
+/* menu */
+#blockList {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    height: 100%;
+    width: 15%;
+    min-width: 200px;
+    max-width: 290px;
+    line-height: 300%;
+    background-color: #2f6627;
+    padding: 2% 0 0 0;
+}
+
+#blockList span{
+    text-align: center;
+    color: lightgreen;
+    background-color: #1f3e1c;
+    font-size: 400%;
+    width: 100%;
+    padding: 8% 0 8% 0;
+    display: block;
+}
+
+#blockList ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+#blockList a {
+    text-decoration: none;
+    padding-left: 5%;
+    color: lightgreen;
+    background: transparent;
+    font-size: 150%;
+
+    width: auto;
+    display: block;
+}
+
+#blockList li:hover{
+    background-color: #1f3e1c;
+}
+
+#blockList .ephecLink:hover{
+    background-color: #ff960b;
+}
+
+#blockList .ephecLink:hover a{
+    color: black;
+}
+
+#utilLink {
+    margin-top: 10%;
+}
+
+.warp {
+    background-color: transparent;
+    margin: 20% 0 20% 0;
+}
+
+/* stackOverflowSearch */
+#searchBar {
+    position: absolute;
+    z-index: 0;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 130px;
+    background-color: #2f6627;
+    padding: 1% 0 0 17%;
+}
+
+#searchBar select , #searchBar input{
+    border: none;
+    background-color: #1f3e1c;
+    color: lightgreen;
+    font-size: 150%;
+    padding: .6em;
+    border-radius: .5em;
+    box-shadow: 1px 1px 1px #122410;
+}
+
+#searchBar input[type='text'] {
+    width: 50%;
+}
+
+/* fotawesome */
+#fontAwesome {
+    font-size: 1.5em;
+}
+.fa-google {
+    color: #4285F4;
+}
+.fa-stack-overflow {
+    color: #F48F3E;
+
+}
+
+/* gestion taille écran */
+@media all and (max-width: 1302px){
+    #searchBar {
+        margin-left: 200px;
+    }
+}
+
+@media all and (max-width: 713px) {
+    #outlookCalendarFrame , #searchBar{
+        visibility: hidden;
+    }
+}
+

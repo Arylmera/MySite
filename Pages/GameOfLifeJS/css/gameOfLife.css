@@ -1,0 +1,86 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    background: #cb816e url("../img/bck.jpg") no-repeat center;
+    background-size: cover;
+}
+
+fieldset {
+    position: relative;
+    margin: 5%;
+    box-sizing: border-box;
+    color: #4c2a26;
+    border: #cb816e 3px double;
+    border-radius: 5px;
+    min-height: 750px;
+    min-width: 100px;
+}
+
+#lifeGridRender {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    background-color: #cb816e;
+    border: 1px solid #cb816e;
+}
+
+#lifeGridRender, tr, td {
+    border: 1px solid #cb816e;
+    border-collapse: collapse;
+}
+
+td {
+    width: 10px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+}
+
+#lifeGridRender tr td {
+    -webkit-border-radius: 8px;
+}
+
+#linkOfLife {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    border: 2px solid #cb816e;
+    border-radius: 3px;
+    background-color: #cb816e;
+    color: black;
+}
+
+a {
+    color: #57372f;
+    margin: 5px;
+}
+
+#lifeCell {
+    background-color: #86d300;
+}
+
+#deadCell {
+    background-color: rgba(203, 129, 110, 0.88);
+ }
+
+#buttonForm {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    padding: 0px;
+    width: 100px;
+    box-sizing: border-box;
+    margin: 0px 5% 0px 0px;
+}
+
+input[type="button"] {
+    border: 1px solid #742257;
+    background-color: #b83789;
+    border-radius: 3px;
+    width: 100px;
+    margin: 30px;
+    box-shadow: 3px 4px rgba(184, 55, 137, 0.4);
+}
+

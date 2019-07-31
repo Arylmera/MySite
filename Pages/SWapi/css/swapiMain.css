@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: 'starJedi';
+    src: url('../star_jedi/starjedi/Starjedi.ttf');
+}
+
+@font-face {
+    font-family: 'starJediTitle';
+    src: url("../star_jedi/starjedi/Starjhol.ttf");
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #000000;
+    background-image: url("../img/swStars.jpg") ;
+    color: #FFC62D;
+    font-family: starJedi;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    font-family: starJediTitle;
+}
+
+#linkList {
+    padding: 1%;
+}
+
+li {
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+a {
+    font-family: starJedi;
+    font-size: 1.5em;
+    color: #FFC62D;
+    text-decoration: none;
+}
+footer {
+    position: relative;
+    clear: both;
+    text-align: center;
+    height: 2%;
+    width: 100%;
+    margin-top: 98%;
+    border-top: 3px solid #FFC62D;
+    padding-bottom: 2%;
+}

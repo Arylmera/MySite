@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "fr">
+<head>
+    <meta charset = "UTF-8">
+    <title>Calculatrice</title>
+    <script src="js/calculatrice.js"></script>
+    <link rel="stylesheet" href="css/calculatrice.css">
+</head>
+<body>
+<div id="main">
+<form>
+    <input type="text" id="visual" value="0">
+</form>
+<table>
+    <tr>
+        <td> <button value="c" onclick="reset()">C</button> </td>
+        <td> <button value="del" onclick="del()"><</button> </td>
+        <td> <button value="/" onclick="division()">/</button> </td>
+        <td> <button value="*" onclick="multiplication()">*</button> </td>
+    </tr>
+    <tr>
+        <td> <button value="7" onclick="addNumber(7)">7</button> </td>
+        <td> <button value="8" onclick="addNumber(8)">8</button> </td>
+        <td> <button value="9" onclick="addNumber(9)">9</button> </td>
+        <td> <button value="-" onclick="soustraction()">-</button> </td>
+    </tr>
+    <tr>
+        <td> <button value="4" onclick="addNumber(4)">4</button> </td>
+        <td> <button value="5" onclick="addNumber(5)">5</button> </td>
+        <td> <button value="6" onclick="addNumber(6)">6</button> </td>
+        <td> <button value="+" onclick="addition()">+</button> </td>
+    </tr>
+    <tr>
+        <td> <button value="1" onclick="addNumber(1)">1</button> </td>
+        <td> <button value="2" onclick="addNumber(2)">2</button> </td>
+        <td> <button value="3" onclick="addNumber(3)">3</button> </td>
+        <td rowspan="2"> <button value="=" id="exe" onclick="cal()">=</button> </td>
+    </tr>
+    <tr>
+        <td colspan="2"> <button value="0" id="zero" onclick="addNumber(0)">0</button> </td>
+        <td> <button value="." onclick="virg()">.</button></td>
+    </tr>
+</table>
+</div>
+<div id="saves">
+<div id="tableSaves"></div>
+</div>
+</body>
+</html>

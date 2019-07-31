@@ -1,0 +1,94 @@
+
+@font-face {
+    font-family: 'starJedi';
+    src: url('../../star_jedi/starjedi/Starjedi.ttf');
+}
+
+@font-face {
+    font-family: 'starJediTitle';
+    src: url("../../star_jedi/starjedi/Starjhol.ttf");
+}
+
+body {
+    background-color: black;
+    background-image: url("../../img/swStars.jpg");
+    color: #FFC62D;
+    font-family: starJedi;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    font-family: starJediTitle;
+}
+
+#FilmActorBlock {
+    position: absolute;
+    width: 100%;
+}
+
+#selectMovie {
+    position: relative;
+    left: 5%;
+}
+
+#selectMovie:not(select) {
+    font-size: 1.3em;
+}
+
+#filmActor {
+    float: left;
+}
+
+#filmActor select {
+    font-size: 1em;
+    font-family: starJedi;
+    background-color: #000000;
+    color: #FFC62D;
+    border: 2px solid #FFC62D;
+    padding: 2px;
+    border-radius: 0.5em;
+    text-align-last: center;
+}
+
+#jedi {
+    position: relative;
+    left: 5%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#jediInfo {
+    position: absolute;
+    float: right;
+    right: 5%;
+    top: 25%;
+    border: 1px solid #FFC62D;
+    padding: 1%;
+    border-radius: 5%;
+    box-sizing: border-box;
+}
+
+#backButton {
+    color: #FFC62D;
+    position: absolute;
+    left: 3%;
+}
+
+#moreInfo {
+    position: relative;
+    left: 3%;
+}
+
+#FilmActorBlock img {
+    width: 10%;
+    height: auto;
+    float: right;
+    margin-right: 15%;
+    border: 5px solid black;
+    border-radius: 3em;
+}

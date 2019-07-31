@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "fr">
+<head>
+    <meta charset = "UTF-8">
+    <title>Game Of Life</title>
+    <script src="js/gameOfLife.js"></script>
+    <link rel="stylesheet" href="css/gameOfLife.css">
+</head>
+<body>
+
+<fieldset>
+    <legend>Game Of Life</legend>
+    <table id="lifeGridRender"></table>
+    <div id="linkOfLife">
+        Rules : <br>
+        <a href="https://fr.wikipedia.org/wiki/Jeu_de_la_vie" target="_blank">Jeu de la vie (FR)</a> <br>
+        <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Conway's game of life (EN) </a>
+    </div>
+    <form id="buttonForm">
+        <input type="button" onclick="init()" value="Lancer La Vie">
+        <input type="button" onclick="pause()" value="Pause">
+        <input type="button" onclick="start()" value="Continue">
+    </form>
+</fieldset>
+
+</body>
+</html>

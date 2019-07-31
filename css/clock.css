@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'toda_demoregular';
+    src: url('../Pages/rss/toda_-_demo-webfont.woff2') format('woff2'),
+    url('../Pages/rss/toda_-_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    padding-bottom:60px;
+    background-image: url("../img/clock-bck.jpg");
+}
+
+h1 {
+    font-family: "toda_demoregular", serif;
+    text-align: center;
+    text-shadow: 10px 10px 10px #666666;
+}
+
+h5 {
+    text-align: center;
+    text-shadow: 5px 5px 5px #666666;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: 5px #666666 solid;
+    border-radius: 3em 1em ;
+}
+
+h3 {
+    color: orange;
+}
+
+ol, ul {
+    font-style: italic;
+}
+
+#conteneur {
+    display: flex;
+    justify-content: center;
+}
+
+.block{
+    margin: 0.5em;
+    min-width: 100px;
+    max-width: 20%;
+}
+
+footer{
+    position:absolute;
+    bottom:10px;
+    width:100%;
+    height:50px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #333333;
+}
+
+footer li {
+    float: left;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+footer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    background-color: #111111;
+}
+
+canvas {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
